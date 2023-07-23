@@ -1,5 +1,5 @@
 {
-  const smList:{
+  "smList" : [
 	{
 		id: 1,
 		name: 'Avadh Ji',
@@ -125,5 +125,5 @@
 		info: 'Founder of Art of Living Foundation',
 		followersCount: 100,
 	},
-}
+		]
 }
