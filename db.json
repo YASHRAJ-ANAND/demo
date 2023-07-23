@@ -1,14 +1,129 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  const smList:{
+	{
+		id: 1,
+		name: 'Avadh Ji',
+		avatar: 'https://research.baps.org/wp-content/uploads/2022/02/bs.jpg',
+		info: 'Spiritual leader',
+		followersCount: 100,
+	},
+	{
+		id: 2,
+		name: 'Chinmayananda Saraswati',
+		avatar: 'https://avadhootaudyana.files.wordpress.com/2020/07/meh-1.jpg',
+		info: 'Spiritual leader',
+		followersCount: 100,
+	},
+	{
+		id: 3,
+		name: 'Dinesh Bharti',
+		avatar:
+			'https://scontent.fpat2-1.fna.fbcdn.net/v/t1.18169-9/20728042_106509803398825_6027906894802486756_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=7XTRevw3kGgAX844uar&_nc_ht=scontent.fpat2-1.fna&oh=00_AfCV5EPeURfnryqij_TBbTcnpJoMXqm_s3xWwV8Iqt8VfA&oe=64DFBB71',
+		info: 'Member of ISKCON',
+		followersCount: 100,
+	},
+	{
+		id: 4,
+		name: 'Gaur Gopal Das',
+		avatar:
+			'https://thecsrjournal.in/wp-content/uploads/2018/11/Gaur-Gopal-Das.jpg',
+		info: 'Member of ISKCON',
+		followersCount: 100,
+	},
+	{
+		id: 5,
+		name: 'Harshananda',
+		avatar:
+			'https://etvbharatimages.akamaized.net/etvbharat/prod-images/768-512-10217963-952-10217963-1610465250639.jpg',
+		info: 'Chancellor of Amrita Vishwa Vidyapeetham',
+		followersCount: 100,
+	},
+	{
+		id: 6,
+		name: 'Mata Amritanandamayi (Amma)',
+		avatar:
+			'https://starsunfolded.com/wp-content/uploads/2022/12/Mata-Amritanandamayi-Devi-1.jpg',
+		info: 'Chancellor of Amrita Vishwa Vidyapeetham',
+		followersCount: 100,
+	},
+	{
+		id: 7,
+		name: 'Nithyananda',
+		avatar:
+			'https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/article_images/2019/11/22/file7637f9f19k01lv58ih0k-1574361514-1574437042.jpg?itok=DmisQFdH',
+		info: 'President of Parmarth Niketan Ashram',
+		followersCount: 100,
+	},
+	{
+		id: 8,
+		name: 'Pujya Swamiji',
+		avatar:
+			'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfTob-gzcGB7R1cvjuJ8xYwnDMWDdkA7nK-aUS5wa3LiVR8-adqtsY4N6AY3fQHqQnrY&usqp=CAU',
+		info: 'President of Parmarth Niketan Ashram',
+		followersCount: 100,
+	},
+	{
+		id: 9,
+		name: 'Ramana Maharshi',
+		avatar:
+			'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa9dWPj2Mm_rHvVyVpOXTA89xPfmM8AV4n0-rRdpLs7gLoWPvv4QeBGi4CoYTFUXLX0i1g&s',
+		info: 'Founder of Isha Foundation',
+		followersCount: 100,
+	},
+	{
+		id: 10,
+		name: 'Ramana Maharshi',
+		avatar:
+			'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa9dWPj2Mm_rHvVyVpOXTA89xPfmM8AV4n0-rRdpLs7gLoWPvv4QeBGi4CoYTFUXLX0i1g&s',
+		info: 'Founder of Isha Foundation',
+		followersCount: 100,
+	},
+	{
+		id: 11,
+		name: 'Sarvapriyananda',
+		avatar:
+			'https://internethelpline.in/wp-content/uploads/2022/06/Swami-Sarvapriyananda.jpg',
+		info: 'Founder of Isha Foundation',
+		followersCount: 100,
+	},
+	{
+		id: 12,
+		name: 'Sadhguru',
+		avatar:
+			'https://libraryitems.insighttimer.com/m8k6d6w0f0v2v8q8k2z9e2m4m2c9c9a1g3f1a5c7/pictures/tiny_rectangle_medium.jpeg',
+		info: 'Founder of Isha Foundation',
+		followersCount: 100,
+	},
+	{
+		id: 13,
+		name: 'Sri Sri Ravi Shankar',
+		avatar:
+			'https://bsmedia.business-standard.com/_media/bs/img/article/2016-03/10/full/1457602491-6679.jpg?im=FeatureCrop,size=(465,465)',
+		info: 'Founder of Art of Living Foundation',
+		followersCount: 100,
+	},
+	{
+		id: 14,
+		name: 'Shraddhanand',
+		avatar:
+			'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu8lphhG204tAWl7mjbrPNiCs5NLDx1tzt5Wx2ccolupwB9nbTse9TG_XeuTzs5Fkdbnk&usqp=CAU',
+		info: 'Founder of Art of Living Foundation',
+		followersCount: 100,
+	},
+	{
+		id: 15,
+		name: 'Swami Samarth Taarakmantra',
+		avatar: 'https://i.ytimg.com/vi/YATk3GeCKFw/mqdefault.jpg',
+		info: 'Founder of Art of Living Foundation',
+		followersCount: 100,
+	},
+	{
+		id: 16,
+		name: 'Tadatmananda',
+		avatar:
+			'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQN4mUFtWmwft6iAV0HkedB-Lzvj5t-MBIhKQDIuS6-n__jH9lS',
+		info: 'Founder of Art of Living Foundation',
+		followersCount: 100,
+	},
+}
 }
